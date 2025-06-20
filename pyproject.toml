@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "zadanie-rekrutacyjne"
+version = "0.1.0"
+description = ""
+authors = ["Weronika Podyma"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "0.21.1"
+pandas = "2.2.3"
+requests = "^2.32.3"
+duckdb = "^1.3.1"
+streamlit = "^1.46.0"
+altair = "^5.5.0"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
