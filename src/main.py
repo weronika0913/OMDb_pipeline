@@ -88,6 +88,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# zapytac o api jak sobie poradzic z duza iloscia requestow
